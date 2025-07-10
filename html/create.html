@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+        /* layout */
+        :root {
+            --primary: #FF91A4;
+            --error: #e7195a;
+        }
+
+        body {
+            background: #FDE9EA;
+            margin: 0;
+            font-family: "Poppins";
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        /* new workout form */
+
+        label,
+        input {
+            display: block;
+        }
+
+        header {
+            background: #fff;
+        }
+
+        header .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header a {
+            color: #FF91A4;
+            text-decoration: none;
+        }
+
+        header span {
+            margin: 0 15px;
+            font-size: 25px;
+        }
+
+        input[type=text] {
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+
+        textarea {
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            max-width: 100%;
+            max-height: 400px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            background: var(--primary);
+            border: 0;
+            color: #fff;
+            padding: 10px;
+            font-family: "Poppins";
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=file] {
+            background: var(--primary);
+            border: 0;
+            color: #fff;
+            padding: 10px;
+            font-family: "Poppins";
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        form.create {
+            max-width: 400px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="/forum">MyForum</a></h1>
+    </header>
+
+    <form class='create' method='post' action='processa_create' enctype="multipart/form-data"
+        onsubmit="return confirmSubmission()">
+        <h2>Create your topic!</h2>
+        <label>Title:</label>
+        <input type="text" name="title" required>
+        <label>Context:</label>
+        <textarea name="content" rows="8" cols="50" required></textarea>
+        <label>File:</label>
+        <input type="file" name="file" required>
+        <label>Privacy:</label>
+        <input type="text" name="privacy" placeholder="If left blank, the post is public.">
+        <input type="submit" value="Publicar">
+    </form>
+    <script>
+        function confirmSubmission() {
+            return confirm("Are you sure you want to publish this topic?");
+        }
+    </script>
+</body>
+
+</html>

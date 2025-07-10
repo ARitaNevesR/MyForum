@@ -1,0 +1,20 @@
+{
+  "name": "my-express-app",
+  "version": "1.0.0",
+  "main": "Servidor.js",
+  "scripts": {
+    "start": "node Servidor.js",
+    "dev": "nodemon Servidor.js"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.4.0",
+    "express-session": "^1.17.3",
+    "sha1": "^1.1.1",
+    "uuid": "^9.0.0"
+  }
+}

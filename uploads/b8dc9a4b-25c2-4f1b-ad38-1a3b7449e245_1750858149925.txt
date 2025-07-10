@@ -1,0 +1,59 @@
+Haruka
+Shawn: Guilty - Guilty
+Rita: Guilty - Guilty
+Otter: Guilty - Guilty
+John: Guilty - Guilty
+
+Yuno
+Shawn: Guilty - Innocent
+Rita: Innocent - Innocent
+Otter: Innocent - Innocent
+John: Guilty - Innocent
+
+Futa
+Shawn: Guilty - Innocent
+Rita: Innocent - Innocent
+Otter: Innocent - Innocent
+John: Guilty - Guilty
+
+Mu
+Shawn: Guilty - Guilty
+Rita: Innocent - Guilty
+Otter: Innocent - Guilty
+John: Innocent - Guilty
+
+Shidou
+Shawn: Innocent - Innocent
+Rita: Innocent - Innocent
+Otter: Guilty - Innocent
+John: Innocent - Innocent
+
+Mahiru
+Shawn: Innocent - Guilty
+Rita: Guilty - Guilty
+Otter: Innocent - Guilty
+John: Guilty - Innocent
+
+Kazui:
+Shawn: Innocent - Innocent
+Rita: Innocent - Innocent
+Otter: Guilty - Guilty
+John: Guilty - Innocent
+
+Amane
+Shawn: Guilty - Innocent
+Rita: Innocent - Innocent
+Otter: Innocent - Innocent
+John: Guilty - Innocent
+
+Mikoto
+Shawn: Innocent - Guilty
+Rita: Guilty - Innocent
+Otter: Guilty - Innocent
+John: Guilty - Guilty
+
+Kotoko:
+Shawn: Innocent - Guilty
+Rita: Innocent - Guilty
+Otter: Innocent -  Guilty
+John: Innocent - Innocent

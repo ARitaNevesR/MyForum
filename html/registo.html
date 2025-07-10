@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Registo</title>
+
+</head>
+
+<body>
+	<!DOCTYPE html>
+	<html>
+
+	<head>
+		<title>Login</title>
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+			/* layout */
+			:root {
+				--primary: #FF91A4;
+				--error: #e7195a;
+			}
+
+			body {
+				background: #FDE9EA;
+				margin: 0;
+				font-family: "Poppins";
+			}
+
+			h1 {
+				text-align: center;
+			}
+
+			/* new workout form */
+
+			label,
+			input {
+				display: block;
+			}
+
+			input[type=text] {
+				padding: 10px;
+				margin-top: 10px;
+				margin-bottom: 20px;
+				width: 100%;
+				border: 1px solid #ddd;
+				border-radius: 4px;
+				box-sizing: border-box;
+			}
+
+			input[type=email] {
+				padding: 10px;
+				margin-top: 10px;
+				margin-bottom: 20px;
+				width: 100%;
+				border: 1px solid #ddd;
+				border-radius: 4px;
+				box-sizing: border-box;
+			}
+
+			input[type=password] {
+				padding: 10px;
+				margin-top: 10px;
+				margin-bottom: 20px;
+				width: 100%;
+				border: 1px solid #ddd;
+				border-radius: 4px;
+				box-sizing: border-box;
+			}
+
+			input[type=submit] {
+				background: var(--primary);
+				border: 0;
+				color: #fff;
+				padding: 10px;
+				font-family: "Poppins";
+				border-radius: 4px;
+				cursor: pointer;
+			}
+
+			form.registo {
+				max-width: 400px;
+				margin: 40px auto;
+				padding: 20px;
+				background: #fff;
+				border-radius: 20px;
+			}
+
+			header {
+				background: #fff;
+			}
+
+			header .container {
+				max-width: 1400px;
+				margin: 0 auto;
+				padding: 10px 20px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+
+			header h1 {
+				color: #FF91A4;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<div class="container">
+				<h1>MyForum</h1>
+			</div>
+		</header>
+		<form class='registo' method='get' action='processa_registo'>
+			<h1>Sign In</h1>
+			<p>Already have an account? <a href="login">Login!</a></p>
+			<label>Username:</label>
+			<input type="text" name="username" placeholder="username">
+			<label>Email:</label>
+			<input type="email" name="email" placeholder="enter your email">
+			<label>Password:</label>
+			<input type="password" name="password" placeholder="enter your password">
+			<input type="submit" value="Sign In">
+		</form>
+	</body>
+
+	</html>
